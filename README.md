@@ -8,24 +8,19 @@
 
 ---
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
-
 ### 👾 About Me
 
-```python
-class Ankit:
-    university = "Galgotias University"
-    degree     = "B.Tech CSE — Year 1"
-
-    languages  = ["Python", "C++", "C", "Java"]
-    interests  = ["Backend Dev", "AI/ML", "System Design"]
-
-    currently  = ["FastAPI", "PostgreSQL", "LangChain"]
-    looking_for = "Internships & open-source collabs"
-    goal       = "Build systems that actually matter"
-```
-
-<br clear="right"/>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="58%" valign="top">
+<img src="ankit_about.svg" alt="About Ankit" width="100%"/>
+</td>
+<td width="4%"></td>
+<td width="38%" valign="middle">
+<img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="100%"/>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -62,10 +57,8 @@ class Ankit:
 ![Java](https://img.shields.io/badge/Java-OOP-ED8B00)
 
 #### 🌐 Web & Frameworks
-![React](https://img.shields.io/badge/React-Frontend-61DAFB)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-005571)
 ![HTML5](https://img.shields.io/badge/HTML5-Markup-E34F26)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Styling-38B2AC)
 
 #### 🤖 AI / ML
 ![LangChain](https://img.shields.io/badge/LangChain-Agentic%20AI-1C3C3C)
@@ -148,12 +141,14 @@ class Ankit:
 
 #### 🔹 [🤖 Elevate AI — AI-Powered Career Platform](https://elevate-ai-one.vercel.app) &nbsp;·&nbsp; [GitHub Repo](https://github.com/Ankit-8081/Elevate-AI)
 
+**Full-Stack AI Career Command Center · Team project — 5 members**
 
-- ☁️ Owned end-to-end deployment — frontend on **Vercel**, backend on **Render**, database on **Neon (serverless PostgreSQL)**
-- 🗄️ Led full **SQLite → cloud PostgreSQL migration** in production: schema rewrite, reserved word fixes, connection string setup
-- 🔧 Managed environment variables, Python runtime pinning (`runtime.txt`), and dependency conflict resolution across environments
-- 🤝 Built alongside: Aayush (Frontend) · Shreyansh (Backend/Auth) · Prateek (AI Integration) · Rasika (DB/Creative)
-- **My tech**: PostgreSQL · Neon · Render · Vercel · Python · Git
+- 🧠 Multi-LLM integration using **Groq + Gemini + Tavily** for resume analysis, roadmap generation, and interview simulation
+- 📄 Smart resume parser with **skill gap analysis** and market readiness scoring
+- 🎥 **Computer vision-based** mock interview feedback using Gemini Vision API
+- 🗺️ Personalized **learning roadmap generator** tailored to target roles and skill gaps
+- ☁️ Fully deployed on **Vercel + Render + Neon PostgreSQL**
+- **Tech**: React · Vite · FastAPI · PostgreSQL · LangChain · LangGraph · Gemini · Groq
 
 ---
 
