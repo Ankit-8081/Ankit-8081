@@ -1,0 +1,127 @@
+<svg width="680" height="400" viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&amp;display=swap');
+      text, tspan { font-family: 'Fira Code', 'Courier New', monospace; font-size: 13px; }
+      .bg   { fill: #0d1117; }
+      .bar  { fill: #161b22; }
+      .ln   { fill: #3d444d; font-size: 12px; }
+      .kw   { fill: #ff7b72; }
+      .cls  { fill: #79c0ff; }
+      .fn   { fill: #d2a8ff; }
+      .str  { fill: #a5d6ff; }
+      .prop { fill: #e6edf3; }
+      .cmt  { fill: #8b949e; font-style: italic; }
+      .pun  { fill: #e6edf3; }
+      .arr  { fill: #ffa657; }
+      .cursor { fill: #58a6ff; animation: blink 1s step-end infinite; }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+      .row { opacity: 0; animation: appear 0.01s forwards; }
+      .r0  { animation-delay: 0.30s; }
+      .r1  { animation-delay: 0.48s; }
+      .r2  { animation-delay: 0.62s; }
+      .r3  { animation-delay: 0.76s; }
+      .r4  { animation-delay: 0.90s; }
+      .r5  { animation-delay: 1.04s; }
+      .r6  { animation-delay: 1.18s; }
+      .r7  { animation-delay: 1.32s; }
+      .r8  { animation-delay: 1.46s; }
+      .r9  { animation-delay: 1.60s; }
+      .r10 { animation-delay: 1.74s; }
+      .r11 { animation-delay: 1.88s; }
+      .r12 { animation-delay: 2.02s; }
+      .r13 { animation-delay: 2.20s; }
+      .r14 { animation-delay: 2.38s; }
+      @keyframes appear { to { opacity: 1; } }
+    </style>
+  </defs>
+
+  <!-- Card -->
+  <rect width="680" height="400" rx="12" class="bg"/>
+  <rect width="680" height="400" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect width="680" height="44" rx="12" class="bar"/>
+  <rect y="32" width="680" height="12" class="bar"/>
+  <rect x="0.5" y="0.5" width="679" height="43" rx="11.5" fill="none" stroke="#30363d" stroke-width="1"/>
+  <circle cx="20" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="22" r="6" fill="#febc2e"/>
+  <circle cx="60" cy="22" r="6" fill="#28c840"/>
+  <text x="90" y="27" class="cmt">ankit.py</text>
+  <line x1="0" y1="44" x2="680" y2="44" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Lines — start y=74, step=22 -->
+
+  <g class="row r0">
+    <text x="28" y="74" class="ln">1</text>
+    <text x="60" y="74"><tspan class="kw">class </tspan><tspan class="cls">Ankit</tspan><tspan class="pun">:</tspan></text>
+  </g>
+
+  <g class="row r1">
+    <text x="28" y="96" class="ln">2</text>
+    <text x="60" y="96" class="cmt">  # B.Tech CSE student who enjoys building and shipping real projects.</text>
+  </g>
+
+  <g class="row r2">
+    <text x="28" y="118" class="ln">3</text>
+  </g>
+
+  <g class="row r3">
+    <text x="28" y="140" class="ln">4</text>
+    <text x="60" y="140"><tspan class="prop">  name       </tspan><tspan class="pun"> = </tspan><tspan class="str">"Ankit Raj"</tspan></text>
+  </g>
+
+  <g class="row r4">
+    <text x="28" y="162" class="ln">5</text>
+    <text x="60" y="162"><tspan class="prop">  university </tspan><tspan class="pun"> = </tspan><tspan class="str">"Galgotias University"</tspan></text>
+  </g>
+
+  <g class="row r5">
+    <text x="28" y="184" class="ln">6</text>
+    <text x="60" y="184"><tspan class="prop">  degree     </tspan><tspan class="pun"> = </tspan><tspan class="str">"B.Tech CSE — Year 1"</tspan></text>
+  </g>
+
+  <g class="row r6">
+    <text x="28" y="206" class="ln">7</text>
+    <text x="60" y="206"><tspan class="prop">  location   </tspan><tspan class="pun"> = </tspan><tspan class="str">"Greater Noida, India"</tspan></text>
+  </g>
+
+  <g class="row r7">
+    <text x="28" y="228" class="ln">8</text>
+  </g>
+
+  <g class="row r8">
+    <text x="28" y="250" class="ln">9</text>
+    <text x="60" y="250"><tspan class="prop">  languages  </tspan><tspan class="pun"> = </tspan><tspan class="arr">[</tspan><tspan class="str">"Python"</tspan><tspan class="pun">, </tspan><tspan class="str">"C++"</tspan><tspan class="pun">, </tspan><tspan class="str">"C"</tspan><tspan class="pun">, </tspan><tspan class="str">"Java"</tspan><tspan class="arr">]</tspan></text>
+  </g>
+
+  <g class="row r9">
+    <text x="22" y="272" class="ln">10</text>
+    <text x="60" y="272"><tspan class="prop">  interests  </tspan><tspan class="pun"> = </tspan><tspan class="arr">[</tspan><tspan class="str">"Cloud"</tspan><tspan class="pun">, </tspan><tspan class="str">"DevOps"</tspan><tspan class="pun">, </tspan><tspan class="str">"Backend"</tspan><tspan class="arr">]</tspan></text>
+  </g>
+
+  <g class="row r10">
+    <text x="22" y="294" class="ln">11</text>
+    <text x="60" y="294"><tspan class="prop">  currently  </tspan><tspan class="pun"> = </tspan><tspan class="arr">[</tspan><tspan class="str">"PostgreSQL"</tspan><tspan class="pun">, </tspan><tspan class="str">"FastAPI"</tspan><tspan class="pun">, </tspan><tspan class="str">"Render"</tspan><tspan class="arr">]</tspan></text>
+  </g>
+
+  <g class="row r11">
+    <text x="22" y="316" class="ln">12</text>
+  </g>
+
+  <g class="row r12">
+    <text x="22" y="338" class="ln">13</text>
+    <text x="60" y="338"><tspan class="prop">  goal       </tspan><tspan class="pun"> = </tspan><tspan class="str">"Build systems that actually matter"</tspan></text>
+  </g>
+
+  <g class="row r13">
+    <text x="22" y="360" class="ln">14</text>
+  </g>
+
+  <g class="row r14">
+    <text x="22" y="382" class="ln">15</text>
+    <text x="60" y="382"><tspan class="kw">  def </tspan><tspan class="fn">greet</tspan><tspan class="pun">(</tspan><tspan class="cls">self</tspan><tspan class="pun">): </tspan><tspan class="kw">return </tspan><tspan class="str">"Let's build something real." </tspan><tspan><rect x="0" y="0" width="7" height="13" class="cursor"/></tspan></text>
+    <rect x="463" y="370" width="7" height="13" rx="1" class="cursor"/>
+  </g>
+
+</svg>
