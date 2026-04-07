@@ -152,6 +152,17 @@
 
 ---
 
+#### 🔹 [💸 Finance Tracker — Personal Finance Manager](https://ankit-8081.github.io/Finance-Tracker/) &nbsp;·&nbsp; [GitHub Repo](https://github.com/Ankit-8081/Finance-Tracker)
+**Installable PWA Finance App with AI Assistant & Bank Import · Solo project**
+- 🏦 **Bank statement importer** supporting 10+ Indian banks (SBI PDF, HDFC, ICICI, Axis, Kotak) with smart dedup on re-import
+- 🤖 **Gemini 2.0 Flash AI assistant** — chat about your finances, add transactions by voice, and bulk recategorize via natural language
+- 🔒 **AES-GCM client-side encryption** — transaction data encrypted in-browser via Web Crypto API before hitting Firebase; API key hidden behind Cloud Function proxy
+
+- 📊 **Analytics suite** — Monthly Trends, Day-of-Week Heatmap, Month-on-Month Comparison, and Net Worth Over Time charts
+- 📲 **PWA** — installable on Android, iOS, and desktop; offline queue syncs automatically on reconnect
+- **Tech**: Vanilla JS · Firebase Auth · Firebase Realtime DB · Gemini API · Chart.js · PDF.js · SheetJS · Web Crypto API
+---
+
 #### 🔹 [📋 Workflow Pro — Productivity Dashboard](https://github.com/Ankit-8081/Task-Planner)
 
 **PWA Task Manager with Real-Time Sync**
