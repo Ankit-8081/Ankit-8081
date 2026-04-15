@@ -169,7 +169,7 @@
 - 🔄 Real-time data sync using **Firebase Realtime Database** — persists across sessions and devices
 - 📱 **Service Worker-driven offline mode** and Web App Manifest for native desktop/mobile installation
 - 🗂️ Responsive **category-filtered Kanban board** with automated date-sorting (Previous · Today · Upcoming)
-- **Tech**: JavaScript (ES6+) · Firebase · CSS3 (Glassmorphism) · HTML5 · Service Workers.
+- **Tech**: JavaScript (ES6+) · Firebase · CSS3 (Glassmorphism) · HTML5 · Service Workers
 
 ---
 
