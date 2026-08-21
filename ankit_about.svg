@@ -69,7 +69,7 @@
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.185;0.231;0.969;1" dur="6.5s" repeatCount="indefinite"/>
     <text x="28" y="184" class="ln">6</text>
-    <text x="60" y="184"><tspan class="prop">  degree     </tspan><tspan class="pun"> = </tspan><tspan class="str">"B.Tech CSE — Year 1"</tspan></text>
+    <text x="60" y="184"><tspan class="prop">  degree     </tspan><tspan class="pun"> = </tspan><tspan class="str">"B.Tech CSE — Year 2"</tspan></text>
   </g>
 
   <!-- ROW 7: location -->
