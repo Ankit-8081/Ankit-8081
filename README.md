@@ -2,7 +2,7 @@
 ### **Frontend + AI Builder | Hackathon Performer | Turning Ideas into Products**
 
 
->  First-year CSE student who shipped a full-stack AI platform to production.
+>  Second-year CSE student who shipped a full-stack AI platform to production.
 
 📍 Greater Noida, India &nbsp;|&nbsp; 🎓 B.Tech CSE @ Galgotias University &nbsp;|&nbsp; 📬 ankrajzm@gmail.com
 
